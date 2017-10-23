@@ -1,0 +1,228 @@
+/*navbar*/
+
+.header2{
+    background-image: url(../pics/topheader.png);
+    height: 250px;
+    background-color: black;
+    width: 100%;
+}
+body,html{
+
+    overflow-x: hidden;
+ background-color: black;
+}
+.navbar{
+    border:0px;
+border-radius: 0px;    
+margin-bottom: 5px;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+.navbar-default .navbar-nav > li > a{
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: white;
+}
+.navbar-right{
+    color: white;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    background-color: unset;
+    color: white;
+}
+.left , .right{
+    color:black;
+    height: 100%;
+    padding: 30px;
+    background-color: gray;
+}
+.footer{
+    background-color: #222222;
+
+    color: white;
+    padding: 20px;
+}
+  pre {
+          tab-size: 8;
+      }
+      .navbar-right{
+          margin-top: 10px;
+      }
+      .navbar-right input{
+          padding-left: 5px;
+          margin-right: 10px;
+          width: 150px;
+      }
+          .navbar-right h4{
+     display: inline-block;
+     margin-left: 10px;
+     margin-top: 5px;
+      }
+              .navbar-right h4 span{
+  color: #f37021;
+      }
+      .im{
+          margin-top: 5px;
+      }
+      @media screen and (max-width: 700px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container.out{
+              left:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:200px;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+                  z-index: 5;
+              
+          }
+          .side-collapse.in {
+              width:0;
+          }
+              .navbar-right input{
+          padding-left: 5px;
+          margin-right: 10px;
+          width: 150px;
+          margin-left: 20px;
+          margin-bottom: 10px;
+      }
+      }
+.navbar-inverse .navbar-toggle{
+          margin-left: 10px;
+      }
+      .navbar li img{
+          width: 30px;
+          height: 30px;
+      }
+      .navbar-inverse .navbar-nav > li > a{
+          display:inline-block;
+      }
+      .navbar-header img{
+padding:3px;
+display: none;
+      }
+@media (max-width:900px){
+    .header2{
+        display: none;
+    }
+    .navbar li img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: -26px;
+}
+.navbar-inverse .navbar-nav > li > a{
+    margin-left: 10px;
+}
+
+}
+@media (max-width:800px){
+
+
+     .navbar-header img{
+display: inline;
+display: inline;
+    margin-top: 5px;
+      }
+
+}
+@media (max-width:350px){
+
+     .navbar-header img{
+display: inline;
+display: inline;
+    width: 200px;
+    margin-top: 5px;
+      }
+
+
+    
+}
+@media (min-width:700px){
+
+
+    .navbar-header img{
+display: none;
+      }
+}
+   @media (min-width: 768px) and (max-width:1024px)  {
+
+       .navbar-right{
+           float: left !important;
+       }
+       .navbar li img{
+           margin-right: 0px;
+       }
+   }
+
+/*end navbar*/
+
+/*movies*/
+.main .row{
+    margin-top: 55px;
+}
+.movie img{
+    width: 100%;
+    height: 240px;
+    
+}
+.row {
+    margin-right: -15px;
+    margin-left: -8px;
+}
+.col-xs-6{
+
+        padding-right: 7px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+}
+.movie h3{
+    position: absolute;
+    bottom: -10px;
+    background-color: rgba(0,0,0,0.5);
+    width: 96%;
+    right: 7px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    /* height: 24px; */
+    padding: 8px;
+}
+.movie h3 img{
+    width: 16px;
+    height: 16px;
+       border: unset;
+    box-shadow: unset;
+    
+}
+
+/* end movies*/
+
+/*inner*/
+.innera {
+    margin-top:50px;
+}
+.inner p{
+text-align: right;
+color: #9E9E9E;
+}
+.inner h4{
+    color: white;
+text-align: right;
+    
+}
+.eposides {
+    margin-top: 10px;
+}
+/*end inner*/
